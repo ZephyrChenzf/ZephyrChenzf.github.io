@@ -5,9 +5,9 @@
   
   <link href="/atom.xml" rel="self"/>
   
-  <link href="https://zephyrchenzf.github.io/"/>
+  <link href="https://zephyrchenzf.github.io/index/"/>
   <updated>2020-04-28T07:19:11.340Z</updated>
-  <id>https://zephyrchenzf.github.io/</id>
+  <id>https://zephyrchenzf.github.io/index/</id>
   
   <author>
     <name>Zhongfu Chen</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="https://zephyrchenzf.github.io/2020/04/28/hello-world/"/>
-    <id>https://zephyrchenzf.github.io/2020/04/28/hello-world/</id>
+    <link href="https://zephyrchenzf.github.io/index/2020/04/28/hello-world/"/>
+    <id>https://zephyrchenzf.github.io/index/2020/04/28/hello-world/</id>
     <published>2020-04-28T07:19:11.340Z</published>
     <updated>2020-04-28T07:19:11.340Z</updated>
     
