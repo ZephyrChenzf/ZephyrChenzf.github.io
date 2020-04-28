@@ -111,8 +111,17 @@ blockquote {
     tab-size: 4;
 }
 
-pre {
+/*pre {
     padding: 2.5rem 1.5rem 1.5rem 1.5rem !important;
+    margin: 1rem 0 !important;
+    background: #272822;
+    overflow: auto;
+    border-radius: 0.35rem;
+    tab-size: 4;
+}*/
+pre {
+    /* padding: 1.5rem !important; */
+    padding: 1.5rem 1.5rem 1.5rem 3.3rem !important;
     margin: 1rem 0 !important;
     background: #272822;
     overflow: auto;
@@ -134,11 +143,19 @@ pre {
     box-shadow: 20px 0 #ffbd2e, 40px 0 #27c93f;
 }
 
-code {
+/*code {
     padding: 1px 5px;
     top: 13px !important;
     font-family: Inconsolata, Monaco, Consolas, 'Courier New', Courier, monospace;
     font-size: 0.91rem;
+    color: #e96900;
+    background-color: #f8f8f8;
+    border-radius: 2px;
+}*/
+code {
+    padding: 1px 5px;
+    font-family: Inconsolata, Monaco, Consolas, 'Courier New', Courier, monospace;
+    /* font-size: 0.91rem; */
     color: #e96900;
     background-color: #f8f8f8;
     border-radius: 2px;

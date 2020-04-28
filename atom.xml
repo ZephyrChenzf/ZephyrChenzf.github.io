@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Zephyer的博客</title>
+  
+  <subtitle>ZephyerChenzf的学习小站</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://zephyrchenzf.github.io/"/>
+  <updated>2020-04-28T11:09:25.336Z</updated>
+  <id>https://zephyrchenzf.github.io/</id>
+  
+  <author>
+    <name>Zhongfu Chen</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>hello</title>
+    <link href="https://zephyrchenzf.github.io/hello/"/>
+    <id>https://zephyrchenzf.github.io/hello/</id>
+    <published>2020-04-28T09:47:56.000Z</published>
+    <updated>2020-04-28T11:09:25.336Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;script&gt;
+        document.querySelectorAll(&#39;.github-emoji&#39;)
+          .forEach(el =&gt; {
+            if (!el.dataset.src) { return; }
+       
+        
+      
+    
+    </summary>
+    
+    
+      <category term="hello" scheme="https://zephyrchenzf.github.io/categories/hello/"/>
+    
+    
+      <category term="hello" scheme="https://zephyrchenzf.github.io/tags/hello/"/>
+    
+      <category term="world" scheme="https://zephyrchenzf.github.io/tags/world/"/>
+    
+  </entry>
+  
+</feed>
