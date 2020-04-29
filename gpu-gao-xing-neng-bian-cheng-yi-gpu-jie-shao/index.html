@@ -474,7 +474,7 @@
 <li>CPU需要很强的通用性来处理各种不同的数据类型，比如整型、浮点数等，同时它又必须擅长处理逻辑判断所导致的大量分支跳转和中断处理，擅长流程控制和逻辑处理，不规则数据结构，不可预测存储结构，单线程程序，分支密集型算法。</li>
 <li>GPU面对的则是类型高度统一的、相互无依赖的大规模数据和不需要被打断的纯净的计算环境，GPU有非常多核心，擅长数据并行计算，规则数据结构，可预测存储模式。</li>
 </ul>
-<p><img src="../img/cpu.jpg" alt="cpu"><br><img src="../img/gpu.jpg" alt="gpu"></p>
+<p><img src="../img/cpu.png" alt="cpu"><br><img src="../img/gpu.jpg" alt="gpu"></p>
 <p>&nbsp; &nbsp;现在的计算机体系架构中，要完成CUDA并行计算，单靠GPU一人之力是不能完成计算任务的，必须借助CPU来协同配合完成一次高性能的并行计算任务。<br>&nbsp; &nbsp;并行部分在GPU上运行，串行部分在CPU运行，这就是异构计算。异构计算的意思就是不同体系结构的处理器相互协作完成计算任务。CPU负责总体的程序流程，而GPU负责具体的计算任务，当GPU各个线程完成计算任务后，就将GPU那边计算得到的结果拷贝到CPU端，完成一次计算任务。<br>&nbsp; &nbsp;应用程序利用GPU实现加速的总体分工就是：密集计算代码（约占5%的代码量）由GPU负责完成，剩余串行代码由CPU负责执行。</p>
 <h2 id="CUDA线程模型"><a href="#CUDA线程模型" class="headerlink" title="CUDA线程模型"></a>CUDA线程模型</h2><p>&nbsp;&nbsp;线程是程序执行的最基本单元，CUDA的并行计算就是通过成千上万个线程的并行执行来实现的。<br><img src="../img/cuda%E7%BA%BF%E7%A8%8B%E6%A8%A1%E5%9E%8B.jpg" alt="cuda线程模型"></p>
 <p>&nbsp;&nbsp;CUDA的线程模型包括：</p>
