@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://zephyrchenzf.github.io/"/>
-  <updated>2020-04-28T11:09:25.336Z</updated>
+  <updated>2020-04-29T08:55:52.694Z</updated>
   <id>https://zephyrchenzf.github.io/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>hello</title>
-    <link href="https://zephyrchenzf.github.io/hello/"/>
-    <id>https://zephyrchenzf.github.io/hello/</id>
-    <published>2020-04-28T09:47:56.000Z</published>
-    <updated>2020-04-28T11:09:25.336Z</updated>
+    <title>GPU高性能编程（一）GPU和CUDA介绍</title>
+    <link href="https://zephyrchenzf.github.io/gpu-gao-xing-neng-bian-cheng-yi-gpu-jie-shao/"/>
+    <id>https://zephyrchenzf.github.io/gpu-gao-xing-neng-bian-cheng-yi-gpu-jie-shao/</id>
+    <published>2020-04-29T06:49:58.000Z</published>
+    <updated>2020-04-29T08:55:52.694Z</updated>
     
     <summary type="html">
     
@@ -29,23 +29,20 @@
       
         
         
-          &lt;script&gt;
-        document.querySelectorAll(&#39;.github-emoji&#39;)
-          .forEach(el =&gt; {
-            if (!el.dataset.src) { return; }
-       
+          &lt;blockquote&gt;
+&lt;p&gt;CUDA（Compute Unified Device Architecture，计算统一设备架构），在图像领域的同学多多少少都会接触到，其相关的硬件是GPU（Graphics Processing
         
       
     
     </summary>
     
     
-      <category term="hello" scheme="https://zephyrchenzf.github.io/categories/hello/"/>
+      <category term="GPU编程" scheme="https://zephyrchenzf.github.io/categories/GPU%E7%BC%96%E7%A8%8B/"/>
     
     
-      <category term="hello" scheme="https://zephyrchenzf.github.io/tags/hello/"/>
+      <category term="GPU" scheme="https://zephyrchenzf.github.io/tags/GPU/"/>
     
-      <category term="world" scheme="https://zephyrchenzf.github.io/tags/world/"/>
+      <category term="CUDA" scheme="https://zephyrchenzf.github.io/tags/CUDA/"/>
     
   </entry>
   
