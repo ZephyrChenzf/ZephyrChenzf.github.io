@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://zephyrchenzf.github.io/"/>
-  <updated>2020-04-29T09:58:38.734Z</updated>
+  <updated>2020-04-30T10:22:51.277Z</updated>
   <id>https://zephyrchenzf.github.io/</id>
   
   <author>
@@ -17,11 +17,48 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>GPU高性能编程（二）CUDA C的开发环境</title>
+    <link href="https://zephyrchenzf.github.io/gpu-gao-xing-neng-bian-cheng-er-cuda-c-de-kai-fa-huan-jing/"/>
+    <id>https://zephyrchenzf.github.io/gpu-gao-xing-neng-bian-cheng-er-cuda-c-de-kai-fa-huan-jing/</id>
+    <published>2020-04-30T09:37:34.000Z</published>
+    <updated>2020-04-30T10:22:51.277Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;blockquote&gt;
+&lt;p&gt;这章主要介绍进行CUDA编程所需要的软件和开发环境，包括&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;支持CUDA的图形处理器&lt;/li&gt;
+&lt;li&gt;NVIDIA设备驱动器&lt;/li&gt;
+&lt;li&gt;CUDA开发工具箱&lt;/li&gt;
+&lt;li&gt;标准C编译器&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p
+        
+      
+    
+    </summary>
+    
+    
+      <category term="GPU编程" scheme="https://zephyrchenzf.github.io/categories/GPU%E7%BC%96%E7%A8%8B/"/>
+    
+    
+      <category term="GPU" scheme="https://zephyrchenzf.github.io/tags/GPU/"/>
+    
+      <category term="CUDA" scheme="https://zephyrchenzf.github.io/tags/CUDA/"/>
+    
+  </entry>
+  
+  <entry>
     <title>GPU高性能编程（一）GPU和CUDA介绍</title>
     <link href="https://zephyrchenzf.github.io/gpu-gao-xing-neng-bian-cheng-yi-gpu-jie-shao/"/>
     <id>https://zephyrchenzf.github.io/gpu-gao-xing-neng-bian-cheng-yi-gpu-jie-shao/</id>
     <published>2020-04-29T06:49:58.000Z</published>
-    <updated>2020-04-29T09:58:38.734Z</updated>
+    <updated>2020-04-30T10:31:16.874Z</updated>
     
     <summary type="html">
     
