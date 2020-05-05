@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://zephyrchenzf.github.io/"/>
-  <updated>2020-04-30T10:22:51.277Z</updated>
+  <updated>2020-05-05T16:48:22.029Z</updated>
   <id>https://zephyrchenzf.github.io/</id>
   
   <author>
@@ -15,6 +15,39 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>GPU高性能编程（三）CUDA-C的入门</title>
+    <link href="https://zephyrchenzf.github.io/gpu-gao-xing-neng-bian-cheng-san-cuda-c-de-ru-men/"/>
+    <id>https://zephyrchenzf.github.io/gpu-gao-xing-neng-bian-cheng-san-cuda-c-de-ru-men/</id>
+    <published>2020-05-05T15:27:31.000Z</published>
+    <updated>2020-05-05T16:48:22.029Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;blockquote&gt;
+&lt;p&gt;本章将编写第一段CUDA C的代码，以及了解主机（Host）和设备（Device）之间编写代码的区别，并且查询CUDA的设备信息&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h2 id=&quot;Hello-World&quot;&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+    
+      <category term="GPU编程" scheme="https://zephyrchenzf.github.io/categories/GPU%E7%BC%96%E7%A8%8B/"/>
+    
+    
+      <category term="GPU" scheme="https://zephyrchenzf.github.io/tags/GPU/"/>
+    
+      <category term="CUDA" scheme="https://zephyrchenzf.github.io/tags/CUDA/"/>
+    
+  </entry>
   
   <entry>
     <title>GPU高性能编程（二）CUDA C的开发环境</title>

@@ -3,7 +3,7 @@
 
 
 <head>
-    <meta charset="utf-8">
+    <!-- hexo-inject:begin --><!-- hexo-inject:end --><meta charset="utf-8">
     <meta name="keywords" content="GPU高性能编程（二）CUDA C的开发环境, Zephyer的博客">
     <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -30,12 +30,11 @@
     <script src="/libs/jquery/jquery.min.js"></script>
 
 <meta name="generator" content="Hexo 4.2.0"><link rel="alternate" href="/atom.xml" title="Zephyer的博客" type="application/atom+xml">
-<link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css">
-<link rel="stylesheet" href="/css/prism-line-numbers.css" type="text/css"></head>
+<link rel="stylesheet" href="/css/prism.css" type="text/css"><!-- hexo-inject:begin --><!-- hexo-inject:end --></head>
 
 
 <body>
-    <header class="navbar-fixed">
+    <!-- hexo-inject:begin --><!-- hexo-inject:end --><header class="navbar-fixed">
     <nav id="headNav" class="bg-color nav-transparent">
         <div id="navContainer" class="nav-wrapper container">
             <div class="brand-logo">
@@ -739,41 +738,33 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="far fa-dot-circle"></i>&nbsp;本篇
-            </div>
+                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/gpu-gao-xing-neng-bian-cheng-er-cuda-c-de-kai-fa-huan-jing/">
+                <a href="/gpu-gao-xing-neng-bian-cheng-san-cuda-c-de-ru-men/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/15.jpg" class="responsive-img" alt="GPU高性能编程（二）CUDA C的开发环境">
+                        <img src="/medias/featureimages/1.jpg" class="responsive-img" alt="GPU高性能编程（三）CUDA-C的入门">
                         
-                        <span class="card-title">GPU高性能编程（二）CUDA C的开发环境</span>
+                        <span class="card-title">GPU高性能编程（三）CUDA-C的入门</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
                             
-这章主要介绍进行CUDA编程所需要的软件和开发环境，包括
-
-支持CUDA的图形处理器
-NVIDIA设备驱动器
-CUDA开发工具箱
-标准C编译器
-
-想要编写CUDA C程序，则需要上面所列出的工具
+本章将编写第一段CUDA C的代码，以及了解主机（Host）和设备（Device）之间编写代码的区别，并且查询CUDA的设备信息
 
 
-支持CUDA的图形处理器我们所说的GP
+Hello World首先给出一个hello world的示例，这是编写在主机上的hello world
                         
                     </div>
                     <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2020-04-30
-                            </span>
+                        <span class="publish-date">
+                            <i class="far fa-clock fa-fw icon-date"></i>2020-05-05
+                        </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
@@ -786,7 +777,6 @@ CUDA开发工具箱
                         </span>
                     </div>
                 </div>
-
                 
                 <div class="card-action article-tags">
                     
@@ -1065,8 +1055,8 @@ code[class*="language-"], pre[class*="language-"] { white-space: pre !important;
     <div class="row">
         <meting-js class="col l8 offset-l2 m10 offset-m1 s12"
                    server="netease"
-                   type="artist"
-                   id="3695"
+                   type="playlist"
+                   id="3778678"
                    fixed='true'
                    autoplay='true'
                    theme='#42b983'
@@ -1291,6 +1281,6 @@ $(function () {
     <script src="/libs/instantpage/instantpage.js" type="module"></script>
     
 
-<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"log":false,"model":{"jsonPath":"/live2dw/assets/shizuku.model.json"},"display":{"position":"right","width":150,"height":300},"mobile":{"show":true},"react":{"opacity":0.7}});</script></body>
+<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"log":false,"model":{"jsonPath":"/live2dw/assets/shizuku.model.json"},"display":{"position":"right","width":150,"height":300},"mobile":{"show":true},"react":{"opacity":0.7}});</script><!-- hexo-inject:begin --><!-- hexo-inject:end --></body>
 
 </html>
